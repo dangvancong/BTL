@@ -34,9 +34,7 @@ public class DEMO extends JFrame implements ActionListener {
 		private JLabel lblDraws_1;
 		private JButton btnCvC;
 
-		/**
-		 * Launch the application.
-		 */
+		
 		public static void main(String[] args) {
 			EventQueue.invokeLater(new Runnable() {
 				public void run() {
@@ -168,18 +166,7 @@ public class DEMO extends JFrame implements ActionListener {
 			btnNewGame.setBounds(10, 216, 197, 23);
 			contentPane.add(btnNewGame);
 
-			/*JTextArea edtDebug = new JTextArea();
-			edtDebug.setFont(new Font("Tahoma", Font.BOLD, 12));
-			edtDebug.setForeground(new Color(0, 255, 0));
-			edtDebug.setBackground(new Color(0, 0, 0));
-			edtDebug.setBounds(10, 0, 252, 135);
-			contentPane.add(edtDebug);
-
-			JScrollPane scrollBar = new JScrollPane(edtDebug);
-			scrollBar.setBounds(226, 91, 270, 77);
-			scrollBar
-					.setVerticalScrollBarPolicy(scrollBar.VERTICAL_SCROLLBAR_ALWAYS);
-			contentPane.add(scrollBar);*/
+		
 
 			lblXWins = new JLabel("0");
 			lblXWins.setFont(new Font("Tahoma", Font.BOLD, 17));
